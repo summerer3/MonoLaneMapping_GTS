@@ -1,0 +1,722 @@
+{
+  "plate": "一汽真值车",
+  "sensors": [
+    {
+      "name": "front_wide",
+      "topic": "/video0/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+            3.10285700e-02,
+            -2.56307810e-01,
+            -3.47812220e-01,
+            0.00090832,
+            -0.69391413,
+            0.7200441,
+            -0.00434068
+        ]
+    },
+      "intrinsic": {
+        "K": [
+            [
+                1918.5878,
+                0,
+                1909.38
+            ],
+            [
+                0,
+                1918.33,
+                1083.88
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.351094,
+                0.164102,
+                0,
+                0,
+                -0.044208
+            ]
+        ]
+    },
+      "time_offset": 0.067,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/front_wide",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "front_narrow",
+      "topic": "/video1/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+            -0.05570897951180524 ,
+            -0.2161811057168145 ,
+            -0.3689597596566061 ,
+            -0.016701512713951178 ,
+            -0.6888573552415871 ,
+            0.7245949055493797 ,
+            0.012602636808100982
+        ]
+    },
+    "intrinsic": {
+        "K": [
+            [
+                7192.47,
+                0,
+                1975.5
+            ],
+            [
+                0,
+                7303.54,
+                1077.27
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.00681,
+                -0.001,
+                0,
+                0,
+                0.00637
+            ]
+        ]
+    },
+      "time_offset": 0.067,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/front_narraw",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "back",
+      "topic": "/video3/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+          0.0031571128599316087 ,
+        1.2003726345467696 ,
+        -0.4816118555116233 ,
+        -0.69257193 ,
+         0.01871826 ,
+        0.01425154 ,
+        0.72096508
+      ]
+      },
+      "intrinsic": {
+        "K": [
+            [
+                1918.97,
+                0,
+                1910.05
+            ],
+            [
+                0,
+                1918.18,
+                1027.99
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.333202,
+                0.127189,
+                0,
+                0,
+                -0.023686
+            ]
+        ]
+    },
+      "time_offset": 0.020,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/back",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "left_back",
+      "topic": "/video8/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+            0.5084639222446709 ,
+            0.369242869957095 ,
+            -0.3636401880376949 ,
+            -0.5993654710866902 ,
+            0.3799027571723129 ,
+            -0.36590430138157304 ,
+            0.6021203944331793
+        ]
+    },
+      "intrinsic": {
+        "K": [
+            [
+                1906.46,
+                0,
+                1908.44
+            ],
+            [
+                0,
+                1909.03,
+                1001.95
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.33243,
+                0.12734,
+                0,
+                0,
+                -0.024293
+            ]
+        ]
+    },
+      "time_offset": 0.028,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/left_back",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "left_front",
+      "topic": "/video9/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+        0.5163632223010693,
+        -0.14638418887815544,
+        -0.35827480704816533,
+        0.3512708089659105,
+        -0.5933251148970718,
+        0.6306343724258412,
+        -0.35619435020207274
+        ]
+    },
+      "intrinsic": {
+        "K": [
+            [
+                1916.71,
+                0,
+                1871.84
+            ],
+            [
+                0,
+                1922.27,
+                1097.48
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.33673,
+                0.14232,
+                0,
+                0,
+                -0.033061
+            ]
+        ]
+    },
+      "time_offset": 0.063,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/left_front",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "right_back",
+      "topic": "/video10/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+          -0.5132474261541056 ,
+            0.36242723576035185 ,
+            -0.34840378774872854 ,
+            -0.6043964363066113 ,
+            -0.37859335459872184 ,
+            0.3547341985377359 ,
+            0.6045954581547442
+      ]
+      },
+      "intrinsic": {
+        "K": [
+            [
+                1917.63,
+                0,
+                1849.96
+            ],
+            [
+                0,
+                1919.07,
+                1019.99
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.31614,
+                0.10468,
+                0,
+                0,
+                -0.01598
+            ]
+        ]
+    },
+      "time_offset": 0.012,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/right_back",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "right_front",
+      "topic": "/video11/compressed",
+      "extrinsic": {
+        "to_lidar_main": [
+            -0.5041040249892331 ,
+            -0.13777590967865594 ,
+            -0.3750641000261286 ,
+            -0.3752837378405717 ,
+            -0.5942844760955676 ,
+            0.6127638369369641 ,
+            0.36125968184467483
+        ]
+    },
+      "intrinsic": {
+        "K": [
+            [
+                1908.68,
+                0,
+                1945.85
+            ],
+            [
+                0,
+                1905.7,
+                1070.64
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "D": [
+            [
+                -0.32371,
+                0.11344,
+                0,
+                0,
+                -0.01969
+            ]
+        ]
+    },
+      "time_offset": 0.081,
+      "type": "pinhole_camera",
+      "enable": true,
+      "offset": 0.25,
+      "path": "data/gt/Camera/right_front",
+      "frame_start_azimuth": 0,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "fisheye_front",
+      "topic": "/video4/compressed",
+      "extrinsic": {
+        "H": [
+          [
+              -0.1727324400289944,
+              -1.4510107682933038,
+              1096.992364960132
+          ],
+          [
+              -0.051313075944229895,
+              -1.075308170875868,
+              787.4777899170809
+          ],
+          [
+              -6.408916398256883e-05,
+              -0.0014115869310105148,
+              0.9671584039217782
+          ]
+      ]
+      },
+      "intrinsic": {
+        "K": [
+          [
+              459.3002069011987,
+              0.0,
+              968.3799616063098
+          ],
+          [
+              0.0,
+              459.3002069011987,
+              775.2581463730074
+          ],
+          [
+              0.0,
+              0.0,
+              1.0
+          ]
+      ],
+        "D": [
+          0.0667862942565324,
+          0.0104602605608579,
+          -0.0116943196915512,
+          0.0021449805784455
+      ]
+      },
+      "time_offset": 0,
+      "type": "fisheye_camera",
+      "enable": true,
+      "path": "data/dut/DUT_Camera/dut_camera2",
+      "frame_start_azimuth": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "fisheye_left",
+      "topic": "/video5/compressed",
+      "extrinsic": {
+        "H": [
+          [
+              -0.041460288249475744,
+              -2.1113823812175836,
+              1096.1313256479916
+          ],
+          [
+              0.2939818866875851,
+              -2.055565221709012,
+              567.3478630563073
+          ],
+          [
+              -4.060577056064141e-05,
+              -0.002167130625639583,
+              0.9330635402349015
+          ]
+      ]
+      },
+      "intrinsic": {
+        "K": [
+          [
+              458.2856102516855,
+              0.0,
+              958.3143826966191
+          ],
+          [
+              0.0,
+              458.2856102516855,
+              767.3739513329858
+          ],
+          [
+              0.0,
+              0.0,
+              1.0
+          ]
+      ],
+        "D": [
+          0.0549300721429177,
+          0.0305141130812007,
+          -0.0220123039337055,
+          0.0037340219785057
+      ]
+      },
+      "time_offset": 0,
+      "type": "fisheye_camera",
+      "enable": true,
+      "path": "data/dut/DUT_Camera/dut_camera1",
+      "frame_start_azimuth": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "fisheye_right",
+      "topic": "/video6/compressed",
+      "extrinsic": {
+        "H": [
+          [
+              -0.01607733344352821,
+              -2.757507838716618,
+              885.3891002328313
+          ],
+          [
+              -0.4116071664973597,
+              -2.4711802416403157,
+              1376.6147539586234
+          ],
+          [
+              -2.0999266328029312e-05,
+              -0.0025981436803608547,
+              1.061087259159626
+          ]
+      ]
+      },
+      "intrinsic": {
+        "K": [
+          [
+              457.6139547619949,
+              0.0,
+              961.4236988433884
+          ],
+          [
+              0.0,
+              457.6139547619949,
+              768.3127335107147
+          ],
+          [
+              0.0,
+              0.0,
+              1.0
+          ]
+      ],
+        "D": [
+          0.0623035118840995,
+          0.0204616424200011,
+          -0.0169587205141786,
+          0.0029536332915996
+      ]
+      },
+      "time_offset": 0,
+      "type": "fisheye_camera",
+      "enable": true,
+      "path": "data/dut/DUT_Camera/dut_camera0",
+      "frame_start_azimuth": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "fisheye_back",
+      "topic": "/video7/compressed",
+      "extrinsic": {
+        "H": [
+          [
+              0.24262900867953321,
+              -2.367532867858071,
+              751.2305362082442
+          ],
+          [
+              0.06209753296916516,
+              -3.017027069189874,
+              1078.0523973547386
+          ],
+          [
+              4.516607521615425e-05,
+              -0.002339542912657285,
+              0.929703464205069
+          ]
+      ]
+      },
+      "intrinsic": {
+        "K": [
+          [
+              459.3002069011987,
+              0.0,
+              968.3799616063098
+          ],
+          [
+              0.0,
+              459.3002069011987,
+              775.2581463730074
+          ],
+          [
+              0.0,
+              0.0,
+              1.0
+          ]
+      ],
+        "D": [
+          0.0667862942565324,
+          0.0104602605608579,
+          -0.0116943196915512,
+          0.0021449805784455
+      ]
+      },
+      "time_offset": 0,
+      "type": "fisheye_camera",
+      "enable": true,
+      "path": "data/dut/DUT_Camera/dut_camera3",
+      "frame_start_azimuth": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "lidar_main",
+      "topic": "/lidar/main",
+      "extrinsic": {
+        "to_lidar_main": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0.707,
+          0.707
+        ]
+      },
+      "type": "lidar",
+      "enable": true,
+      "path": "",
+      "frame_start_azimuth": 0
+    },
+    {
+      "name": "lidar_top",
+      "topic": "/lidar/top",
+      "extrinsic": {
+        "to_lidar_main": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0.707,
+          0.707
+        ]
+      },
+      "type": "lidar",
+      "enable": true,
+      "path": "data/gt/Lidar/pandar128",
+      "frame_start_azimuth": 270
+    },
+    {
+      "name": "lidar_blind_right",
+      "topic": "/lidar/right",
+      "extrinsic": {
+        "to_lidar_main": [
+          -0.145262,
+          -0.554608,
+          -0.0995126,
+          -0.0775551365828431,
+          -0.08105264303097183,
+          0.7055235146594693,
+          -0.6997515559895955
+        ]
+      },
+      "type": "lidar",
+      "enable": true,
+      "path": "data/gt/Lidar/qt128_right",
+      "frame_start_azimuth": 180
+    },
+    {
+      "name": "lidar_blind_back",
+      "topic": "/lidar/back",
+      "extrinsic": {
+        "to_lidar_main": [
+          -1.88005,
+          -0.0349438,
+          -0.209861,
+          -0.10447047453298061,
+          -2.1289684715909103e-05,
+          0.9945166321149682,
+          0.004752677593120082
+        ]
+      },
+      "type": "lidar",
+      "enable": true,
+      "path": "data/gt/Lidar/qt128_back",
+      "frame_start_azimuth": 90
+    },
+    {
+      "name": "lidar_blind_left",
+      "topic": "/lidar/left",
+      "extrinsic": {
+        "to_lidar_main": [
+          -0.0921861,
+          0.544358,
+          -0.147147,
+          -0.07867842185342637,
+          0.06821122247979533,
+          0.7076808334193475,
+          0.6988166949017203
+        ]
+      },
+      "type": "lidar",
+      "enable": true,
+      "path": "data/gt/Lidar/qt128_left",
+      "frame_start_azimuth": 0
+    },
+    {
+      "name": "imu",
+      "topic": "/imu/data_raw",
+      "type": "chassis",
+      "enable": true,
+      "path": "data/gt/Ins/imu",
+      "frame_start_azimuth": 0
+    },
+    {
+      "name": "ins",
+      "topic": "",
+      "type": "bdstar_ins",
+      "enable": true,
+      "path": "data/gt/Ins/ins",
+      "frame_start_azimuth": 0,
+      "extrinsic": {
+        "to_lidar_main": [
+          0.1426402,
+          2.02707116,
+          -1.40435,
+          -0.008658491977320099,
+          -0.0031905806001746913,
+          0.9999406271058995,
+          0.005795944717905811
+        ]
+      }
+    },
+    {
+      "name": "RTK",
+      "topic": "/novatel/oem7/inspva",
+      "type": "rtk",
+      "enable": true,
+      "path": "data/gt/Ins/ins",
+      "frame_start_azimuth": 0
+    },
+    {
+      "name": "front_radar",
+      "topic": "/front/radar",
+      "type": "radar",
+      "enable": true,
+      "path": "data/gt/Radar/front_radar"
+    }
+  ],
+  "time": "2023.12.22  19:04:43",
+  "version": "3.2"
+}
+
